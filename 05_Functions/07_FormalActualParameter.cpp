@@ -1,0 +1,1 @@
+/* Formal parameters are the boxes that stores the variables in the given program while the actual parameter are actual values of the variables inside that boxed also while passing the values the actual parameters are passed. */
