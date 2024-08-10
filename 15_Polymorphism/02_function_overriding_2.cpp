@@ -11,7 +11,7 @@ public:
   }
 };
 
-class child : public parent
+class child :public parent
 {
 public:
   void func1()
@@ -23,6 +23,6 @@ public:
 int main()
 {
   child c;
-  parent *ptr = &c; // Function is called based on pointer not and object until it is real.
+  parent *ptr= &c; // Function is called based on pointer not and object until it is real.
   ptr->func1();
 }
